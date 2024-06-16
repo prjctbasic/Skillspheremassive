@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/nm.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!--Font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>SkillSphere</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <html>
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <body>
+        <nav class="flex items-center justify-between p-4 bg-white shadow-md">
+          <div class="flex items-center">
+            <img src="img/Isolation_Mode.png" alt="SkillSphere lambang" class="h-5" style="margin-left: 90px" />
+            <img src="img/SkillSphere.png" alt="SkillSphere Logo" class="h-5" style="margin-left: 5px" />
+            <ul class="flex space-x-4 ml-6" style="margin-left: 300px">
+              <li><a href="Masuk.html" class="text-zinc-700 hover:text-orange-500">Beranda</a></li>
+              <li><a href="Masuk.html" class="text-zinc-700 hover:text-orange-500">Kursus</a></li>
+              <li><a href="Masuk.html" class="text-zinc-700 hover:text-orange-500">Halaman</a></li>
+            </ul>
+          </div>
+          <div class="flex items-center space-x-4" style="margin-right: 80px">
+            <a href="Masuk.html" class="text-zinc-700 hover:text-orange-500">Masuk</a>
+            <a href="Daftar.html" class="text-zinc-700 hover:text-orange-500">Daftar</a>
+            <button class="text-orange-500 hover:text-orange-700"></button>
+            <div class="flex-1 ml-4">
+              <div class="relative">
+                <input type="text" placeholder="Cari..." class="w-full px-4 py-2 border border-zinc-300 rounded-md text-zinc-900 focus:outline-none focus:ring focus:ring-blue-400 pl-10" />
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+                  <img src="https://placehold.co/20" alt="search" class="h-6 w-6 text-zinc-500" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Megathrone -->
+        <section class="bg-gradient-to-r from-yellow-200 to-green-200 p-8">
+          <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2" style="margin-left: 80px">
+              <h1 class="text-4xl font-bold text-zinc-800">Bangun Keterampilan Dengan SkillSphere</h1>
+              <p class="mt-4 text-zinc-700">
+                Selamat datang di SkillSphere! Di sini, kamu bisa belajar berbagai soft skills yang penting buat sukses di dunia kerja dan kehidupan sehari-hari. Kami punya modul interaktif, video seru, dan latihan praktis yang gampang
+                diikuti. Yuk, mulai perjalanan belajar kamu sekarang dan kembangkan skill-skill keren bareng kami!
+              </p>
+              <a href="Masuk.html"> <button class="mt-6 bg-orange-500 text-white py-2 px-4 rounded-full hover:bg-orange-600">Posting Komentar</button></a>
+            </div>
+            <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center">
+              <img src="img/beautiful-student-girl-wearing-backpack-holding-notebook-isolated-white-background 1.png" alt="Student Image" class="rounded-lg shadow-lg h-100" />
+            </div>
+          </div>
+        </section>
+        <!-- End Megathrone -->
+
+        <!-- Kategori -->
+
+        <div class="bg-white p-8">
+          <div class="flex justify-between items-center mb-8" style="margin-left: 80px">
+            <div>
+              <h2 class="text-2xl font-bold">Kategori Teratas</h2>
+              <p class="text-zinc-600">Jelajahi Kategori Populer kami</p>
+            </div>
+            <a href="Masuk.html"> <button class="border border-zinc-400 text-zinc-600 px-4 py-2 rounded-full" style="margin-right: 80px">Semua Kategori</button></a>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4" style="margin-left: 60px">
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Seni.png" alt="Seni & Desain" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Seni & Desain</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Pengembangan.png" alt="Pengembangan" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Pengembangan</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Komunikasi.png" alt="Komunikasi" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Komunikasi</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Videografii.png" alt="Videografi" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Videografi</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Fotografi.png" alt="Fotografi" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Fotografi</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Pengembangan.png" alt="Pemasaran" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Pemasaran</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Penulisan Konten.png" alt="Penulisan Konten" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Penulisan Konten</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Keuangan.png" alt="Keuangan" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Keuangan</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Sains.png" alt="Sains" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Sains</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+            <div>
+              <a href="Masuk.html">
+                <button class="border rounded-lg p-6 text-center shadow-lg" style="width: 200px; height: 200px">
+                  <img src="img/Landing Page/Icon Jaringan.png" alt="Jaringan" class="mx-auto mb-4" />
+                  <h3 class="text-lg font-semibold text-orange-500">Jaringan</h3>
+                  <p class="text-zinc-500">38 Courses</p>
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- End Kategori -->
+
+        <!-- Pembelajaran -->
+
+        <div class="bg-white p-6">
+          <div class="max-w-7xl mx-auto">
+            <div class="flex justify-between items-center mb-6" style="margin-left: 80px">
+              <div>
+                <h1 class="text-3xl font-bold">Kursus Unggulan</h1>
+                <p class="text-zinc-600">Jelajahi Kursus Populer kami</p>
+              </div>
+              <a href="Masuk.html"> <button class="border border-zinc-400 text-zinc-800 px-4 py-2 rounded-full" style="margin-right: 80px">Semua Kursus</button></a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" style="margin-left: 80px">
+              <div class="bg-white shadow-md rounded-lg overflow-hidden" style="width: 350px; height: 400px">
+                <div class="relative">
+                  <img src="img/Videografi.webp" alt="Videografi" class="w-full h-48 object-cover" />
+                  <span class="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">Videografi</span>
+                </div>
+                <div class="p-4">
+                  <p class="text-zinc-600">oleh Saladin Abdul</p>
+                  <h2 class="text-xl font-semibold">Dasar Video</h2>
+                  <div class="flex items-center text-zinc-600 text-sm mt-2">
+                    <span class="mr-2">🕒 2Weeks</span>
+                    <span>👨‍🎓 156 Students</span>
+                  </div>
+                  <div class="flex items-center justify-between mt-4">
+                    <span class="line-through text-zinc-500">$29.00</span>
+                    <span class="text-green-500">Free</span>
+                    <a href="Masuk.html" class="text-blue-500">Lihat Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white shadow-md rounded-lg overflow-hidden" style="width: 350px; height: 400px">
+                <div class="relative">
+                  <img src="img/fotografi.jpg" alt="Fotografi" class="w-full h-48 object-cover" />
+                  <span class="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">Fotografi</span>
+                </div>
+                <div class="p-4">
+                  <p class="text-zinc-600">oleh Saladin Abdul</p>
+                  <h2 class="text-xl font-semibold">Dasar Fotografi</h2>
+                  <div class="flex items-center text-zinc-600 text-sm mt-2">
+                    <span class="mr-2">🕒 2Weeks</span>
+                    <span>👨‍🎓 156 Students</span>
+                  </div>
+                  <div class="flex items-center justify-between mt-4">
+                    <span class="line-through text-zinc-500">$26.00</span>
+                    <span class="text-red-500">$14.00</span>
+                    <a href="Masuk.html" class="text-blue-500">Lihat Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow-md rounded-lg overflow-hidden" style="width: 350px; height: 400px">
+                <div class="relative">
+                  <img src="img/Landing Page/Sains.png" alt="Sains" class="w-full h-48 object-cover" />
+                  <span class="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">Sains</span>
+                </div>
+                <div class="p-4">
+                  <p class="text-zinc-600">oleh Saladin Abdul</p>
+                  <h2 class="text-xl font-semibold">Hukum-Hukum Dasar Kimia</h2>
+                  <div class="flex items-center text-zinc-600 text-sm mt-2">
+                    <span class="mr-2">🕒 2Weeks</span>
+                    <span>👨‍🎓 156 Students</span>
+                  </div>
+                  <div class="flex items-center justify-between mt-4">
+                    <span class="line-through text-zinc-500">$29.00</span>
+                    <span class="text-green-500">Free</span>
+                    <a href="Masuk.html" class="text-blue-500">Lihat Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow-md rounded-lg overflow-hidden" style="width: 350px; height: 400px">
+                <div class="relative">
+                  <img src="img/Landing Page/Seni Desain.png" alt="Seni & Desain" class="w-full h-48 object-cover" />
+                  <span class="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">Seni & Desain</span>
+                </div>
+                <div class="p-4">
+                  <p class="text-zinc-600">oleh Saladin Abdul</p>
+                  <h2 class="text-xl font-semibold">Unsur-Unsur Seni & Desain</h2>
+                  <div class="flex items-center text-zinc-600 text-sm mt-2">
+                    <span class="mr-2">🕒 2Minggu</span>
+                    <span>👨‍🎓 156 Siswa</span>
+                  </div>
+                  <div class="flex items-center justify-between mt-4">
+                    <span class="line-through text-zinc-500">$29.00</span>
+                    <span class="text-green-500">Free</span>
+                    <a href="Masuk.html" class="text-blue-500">Lihat Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow-md rounded-lg overflow-hidden" style="width: 350px; height: 400px">
+                <div class="relative">
+                  <img src="img/Landing Page/Komunikasi.png" alt="Komunikasi" class="w-full h-48 object-cover" />
+                  <span class="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">Komunikasi</span>
+                </div>
+                <div class="p-4">
+                  <p class="text-zinc-600">oleh Saladin Abdul</p>
+                  <h2 class="text-xl font-semibold">Komunikasi Dasar</h2>
+                  <div class="flex items-center text-zinc-600 text-sm mt-2">
+                    <span class="mr-2">🕒 2Minggu</span>
+                    <span>👨‍🎓 156 Siswa</span>
+                  </div>
+                  <div class="flex items-center justify-between mt-4">
+                    <span class="line-through text-zinc-500">$29.00</span>
+                    <span class="text-green-500">Free</span>
+                    <a href="Masuk.html" class="text-blue-500">Lihat Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white shadow-md rounded-lg overflow-hidden" style="width: 350px; height: 400px">
+                <div class="relative">
+                  <img src="img/Landing Page/Keuangan.png" alt="Keuangan" class="w-full h-48 object-cover" />
+                  <span class="absolute top-2 left-2 bg-black text-white text-xs px-2 py-1 rounded">Keuangan</span>
+                </div>
+                <div class="p-4">
+                  <p class="text-zinc-600">oleh Saladin Abdul</p>
+                  <h2 class="text-xl font-semibold">Konsep Dasar Keuangan</h2>
+                  <div class="flex items-center text-zinc-600 text-sm mt-2">
+                    <span class="mr-2">🕒 2Minggu</span>
+                    <span>👨‍🎓 156 Siswa</span>
+                  </div>
+                  <div class="flex items-center justify-between mt-4">
+                    <span class="line-through text-zinc-500">$29.00</span>
+                    <span class="text-green-500">Free</span>
+                    <a href="Masuk.html" class="text-blue-500">Lihat Selengkapnya</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Pembelajaran -->
+
+        <!-- Presentase -->
+
+        <div class="bg-white p-6" style="margin-left: 20px">
+          <div class="bg-gradient-to-r from-green-200 via-purple-200 to-pink-200 rounded-lg h-48 flex items-center justify-center mb-8" style="height: 400px">
+            <img src="img/Landing Page/Gambar Kembangkan Keterampilan.png" alt="Banner Image" class="rounded-lg" />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center" style="margin-left: 80px">
+            <div class="bg-zinc-100 p-6 rounded-lg" style="width: 200px; height: 100px">
+              <p class="text-2xl font-bold text-orange-500">25K+</p>
+              <p class="text-zinc-700">Siswa Aktif</p>
+            </div>
+            <div class="bg-zinc-100 p-6 rounded-lg" style="width: 200px; height: 100px">
+              <p class="text-2xl font-bold text-orange-500">899</p>
+              <p class="text-zinc-700">Total Kursus</p>
+            </div>
+            <div class="bg-zinc-100 p-6 rounded-lg" style="width: 200px; height: 100px">
+              <p class="text-2xl font-bold text-orange-500">158</p>
+              <p class="text-zinc-700">Instruktur</p>
+            </div>
+            <div class="bg-zinc-100 p-6 rounded-lg" style="width: 200px; height: 100px">
+              <p class="text-2xl font-bold text-orange-500">100%</p>
+              <p class="text-zinc-700">Tingkat Kepuasan</p>
+            </div>
+          </div>
+        </div>
+        <!-- end Presentase -->
+
+        <!-- Adds -->
+
+        <div class="bg-white">
+          <div class="container mx-auto px-4 py-8" style="margin-left: 80px">
+            <div class="flex flex-col lg:flex-row items-center">
+              <div class="lg:w-1/2">
+                <img src="img/Landing Page/Gambar Kembangkan Keterampilan.png" alt="Illustration" class="w-full h-auto" />
+              </div>
+              <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-8">
+                <h2 class="text-2xl font-bold mb-4">Kembangkan Keterampilan Anda Dengan SkillShere</h2>
+                <p class="mb-4">SkillSphere hadir membantu meningkatkan keterampilan & pengetahuanmu dengan cara yang lebih mudah, menyenangkan, dan interaktif!</p>
+                <ul class="mb-4">
+                  <li class="flex items-center mb-2">
+                    <img src="img/Landing Page/Checklist.png" alt="Check" class="mr-2" />
+                    Sertifikasi
+                  </li>
+                  <li class="flex items-center mb-2">
+                    <img src="img/Landing Page/Checklist.png" alt="Check" class="mr-2" />
+                    Sertifikasi
+                  </li>
+                  <li class="flex items-center mb-2">
+                    <img src="img/Landing Page/Checklist.png" alt="Check" class="mr-2" />
+                    Sertifikasi
+                  </li>
+                  <li class="flex items-center mb-2">
+                    <img src="img/Landing Page/Checklist.png" alt="Check" class="mr-2" />
+                    Sertifikasi
+                  </li>
+                </ul>
+                <a href="Masuk.html"> <button class="bg-orange-500 text-white px-4 py-2 rounded-lg">Jelajahi Kursus</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="container mx-auto px-4 py-8">
+            <div class="bg-gradient-to-r from-pink-300 to-blue-300 rounded-lg p-8 flex flex-col lg:flex-row items-center" style="margin-left: 30px">
+              <div class="lg:w-1/2">
+                <img src="img/Landing Page/DSC04603.jpg" alt="Online Learning" class="w-full h-auto rounded-lg" />
+              </div>
+              <div class="lg:w-1/2 mt-8 lg:mt-0 lg:ml-8 text-center lg:text-left">
+                <h3 class="text-lg font-semibold mb-2">MEMBERIKAN YANG LUAR BIASA</h3>
+                <h2 class="text-2xl font-bold mb-4">Pembelajaran Online</h2>
+                <p class="mb-4">Tingkatkan pembelajaran online bersama SkillSphere. Belajar kapan saja dan dimana saja.</p>
+                <a href="Masuk.html"> <button class="bg-orange-500 text-white px-4 py-2 rounded-lg">Jelajahi Kursus</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- End Adds -->
+
+        <!-- Pengalaman siswa -->
+
+        <div class="bg-white py-12">
+          <div class="text-center mb-12">
+            <h2 class="text-2xl font-bold">Pengalaman Siswa</h2>
+            <p class="text-zinc-600">Apa kata siswa tentang SkillSphere</p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+            <div class="bg-white shadow-md rounded-lg p-6">
+              <p class="text-2xl text-zinc-400 mb-4">“</p>
+              <p class="text-zinc-700 mb-4">
+                Skillsphere adalah platform pembelajaran online yang luar biasa dengan berbagai macam kursus berkualitas tinggi. Saya sangat terkesan dengan format pembelajaran yang menarik dan interaktif, serta fitur-fitur lengkap yang
+                ditawarkan.
+              </p>
+              <p class="font-bold">Zaenal</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+              <p class="text-2xl text-zinc-400 mb-4">“</p>
+              <p class="text-zinc-700 mb-4">
+                Skillsphere menghadirkan format pembelajaran yang menarik dan interaktif, seperti video, teks, kuis, dan proyek. Belajar tidak lagi terasa membosankan, melainkan menjadi pengalaman yang menyenangkan dan mudah dipahami.
+              </p>
+              <p class="font-bold">Riza</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+              <p class="text-2xl text-zinc-400 mb-4">“</p>
+              <p class="text-zinc-700 mb-4">Skillsphere dilengkapi dengan berbagai fitur yang bermanfaat untuk mendukung proses belajar Anda, seperti forum diskusi, grup belajar, dan sistem penilaian yang terperinci.</p>
+              <p class="font-bold">Aldo</p>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-6">
+              <p class="text-2xl text-zinc-400 mb-4">“</p>
+              <p class="text-zinc-700 mb-4">
+                Skillsphere dapat diakses kapan saja dan di mana saja, melalui perangkat desktop, laptop, tablet, atau smartphone. Anda dapat belajar dengan fleksibel sesuai dengan waktu dan tempat yang Anda inginkan.
+              </p>
+              <p class="font-bold">Nindi</p>
+            </div>
+          </div>
+          <div class="mt-12 bg-gradient-to-r from-blue-400 to-purple-400 rounded-lg p-6 flex items-center justify-between">
+            <div class="flex items-center">
+              <img src="https://placehold.co/50x50" alt="student icon" class="rounded-full mr-4" />
+              <span class="text-white font-bold">Mari Kita Mulai Bersama SkillSphere</span>
+            </div>
+            <div>
+              <a href="Masuk.html"> <button class="bg-white text-orange-500 font-bold py-2 px-4 rounded-full mr-4">Siswa</button></a>
+              <a href="Masuk.html"> <button class="bg-orange-500 text-white font-bold py-2 px-4 rounded-full">Pengajar</button></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- End Pengalaman siswa -->
+
+        <!-- Artikel -->
+
+        <div class="bg-white p-8">
+          <div class="max-w-7xl mx-auto">
+            <div class="flex justify-between items-center mb-6">
+              <div>
+                <h2 class="text-2xl font-bold">Artikel Terbaru</h2>
+                <p class="text-zinc-600">Jelajahi artikel terbaru kami</p>
+              </div>
+              <a href="Masuk.html"> <button class="bg-white border border-zinc-300 text-zinc-700 py-2 px-4 rounded-full hover:bg-zinc-100">Semua Artikel</button></a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="img/Landing Page/DSC04613.jpg" alt="Article Image 1" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                  <h3 class="text-lg font-semibold text-zinc-800">Best LearnPress WordPress Theme Collection For 2023</h3>
+                  <div class="flex items-center text-sm text-zinc-500 mb-2">
+                    <span class="mr-2">
+                      <img aria-hidden="true" alt="calendar" src="/icons/calendar.svg" class="inline-block w-4 h-4" />
+                    </span>
+                    <span>Jan 24, 2023</span>
+                  </div>
+                  <p class="text-zinc-600">Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
+                </div>
+              </div>
+              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="img/Landing Page/DSC04603.jpg" alt="Article Image 2" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                  <h3 class="text-lg font-semibold text-zinc-800">Best LearnPress WordPress Theme Collection For 2023</h3>
+                  <div class="flex items-center text-sm text-zinc-500 mb-2">
+                    <span class="mr-2">
+                      <img aria-hidden="true" alt="calendar" src="/icons/calendar.svg" class="inline-block w-4 h-4" />
+                    </span>
+                    <span>Jan 24, 2023</span>
+                  </div>
+                  <p class="text-zinc-600">Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
+                </div>
+              </div>
+              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="img/Landing Page/DSC04613.jpg" alt="Article Image 3" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                  <h3 class="text-lg font-semibold text-zinc-800">Best LearnPress WordPress Theme Collection For 2023</h3>
+                  <div class="flex items-center text-sm text-zinc-500 mb-2">
+                    <span class="mr-2">
+                      <img aria-hidden="true" alt="calendar" src="/icons/calendar.svg" class="inline-block w-4 h-4" />
+                    </span>
+                    <span>Jan 24, 2023</span>
+                  </div>
+                  <p class="text-zinc-600">Looking for an amazing & well-functional LearnPress WordPress Theme?...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- End Artikel -->
+
+        <!-- Footer -->
+        <footer class="bg-zinc-100 dark:bg-zinc-800 py-8">
+          <div class="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center px-4">
+            <div class="mb-6 md:mb-0">
+              <img src="https://placehold.co/100x50" alt="SkillSphere Logo" class="mb-4" />
+              <p class="text-zinc-600 dark:text-zinc-300">Meningkatkan aksesibilitas dan efektivitas pembelajaran dengan menciptakan pengalaman belajar yang lebih menyenangkan dan efisien.</p>
+            </div>
+            <div class="flex flex-col md:flex-row md:space-x-12">
+              <div class="mb-6 md:mb-0">
+                <h3 class="text-lg font-semibold text-zinc-800 dark:text-zinc-100 mb-4">BANTUAN</h3>
+                <ul class="text-zinc-600 dark:text-zinc-300 space-y-2">
+                  <li><a href="Masuk.html" class="hover:underline">Hubungi Kami</a></li>
+                  <li><a href="Masuk.html" class="hover:underline">Artikel Terbaru</a></li>
+                  <li><a href="Masuk.html" class="hover:underline">FAQ</a></li>
+                </ul>
+              </div>
+              <div class="mb-6 md:mb-0">
+                <h3 class="text-lg font-semibold text-zinc-800 dark:text-zinc-100 mb-4">PROGRAM</h3>
+                <ul class="text-zinc-600 dark:text-zinc-300 space-y-2">
+                  <li><a href="#" class="hover:underline">Art & Design</a></li>
+                  <li><a href="#" class="hover:underline">Business</a></li>
+                  <li><a href="#" class="hover:underline">IT & Software</a></li>
+                  <li><a href="#" class="hover:underline">Languages</a></li>
+                  <li><a href="#" class="hover:underline">Programming</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="text-lg font-semibold text-zinc-800 dark:text-zinc-100 mb-4">HUBUNGI KAMI</h3>
+                <p class="text-zinc-600 dark:text-zinc-300 mb-2">Address: 2321 New Design Str, Lorem Ipsum10 Hudson Yards, USA</p>
+                <p class="text-zinc-600 dark:text-zinc-300 mb-2">Tel: + (123) 2500-567-898</p>
+                <p class="text-zinc-600 dark:text-zinc-300 mb-4">Mail: supportlms@gmail.com</p>
+                <div class="flex space-x-4">
+                  <a href="#" class="text-zinc-600 dark:text-zinc-300 hover:text-zinc-800 dark:hover:text-zinc-100"><img src="https://placehold.co/24x24" alt="Facebook" /></a>
+                  <a href="#" class="text-zinc-600 dark:text-zinc-300 hover:text-zinc-800 dark:hover:text-zinc-100"><img src="https://placehold.co/24x24" alt="Pinterest" /></a>
+                  <a href="#" class="text-zinc-600 dark:text-zinc-300 hover:text-zinc-800 dark:hover:text-zinc-100"><img src="https://placehold.co/24x24" alt="X" /></a>
+                  <a href="#" class="text-zinc-600 dark:text-zinc-300 hover:text-zinc-800 dark:hover:text-zinc-100"><img src="https://placehold.co/24x24" alt="Instagram" /></a>
+                  <a href="#" class="text-zinc-600 dark:text-zinc-300 hover:text-zinc-800 dark:hover:text-zinc-100"><img src="https://placehold.co/24x24" alt="YouTube" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- End Footer -->
+      </body>
+    </html>
+  </body>
+</html>

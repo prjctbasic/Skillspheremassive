@@ -1,0 +1,213 @@
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/nm.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!--Font awesome CDN-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>SkillSphere</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <html>
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <body>
+        <!-- Navbar -->
+        <nav class="flex items-center justify-between p-4 bg-white shadow-md">
+          <div class="flex items-center">
+            <img src="img/Isolation_Mode.png" alt="SkillSphere lambang" class="h-5" style="margin-left: 90px" />
+            <img src="img/SkillSphere.png" alt="SkillSphere Logo" class="h-5" style="margin-left: 5px" />
+            <ul class="flex space-x-4 ml-6" style="margin-left: 300px">
+              <li><a href="Beranda.html" class="text-zinc-700 hover:text-orange-500">Beranda</a></li>
+              <li><a href="Menu Pembelajaran.html" class="text-zinc-700 hover:text-orange-500">Kursus</a></li>
+              <li><a href="Beranda.html" class="text-zinc-700 hover:text-orange-500">Halaman</a></li>
+            </ul>
+          </div>
+            <div>
+              <img src="https://placehold.co/40" alt="Profile" class="h-10 w-10 rounded-full" style="margin-left: 200px;" />
+            </div>
+            <div class="flex-1 ml-4">
+              <div class="relative">
+                <input type="text" placeholder="Cari..." class="w-full px-4 py-2 border border-zinc-300 rounded-md text-zinc-900 focus:outline-none focus:ring focus:ring-blue-400 pl-10" />
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+                  <img src="https://placehold.co/20" alt="search" class="h-6 w-6 text-zinc-500" />
+                </div>
+        </nav>
+<!-- End Navbar -->
+
+      <button class="text-white">
+        <img src="https://placehold.co/24x24" alt="Search Icon">
+      </button>
+    </header>
+    <div class="bg-black text-white text-center py-2">
+      Informasi Pembayaran
+    </div>
+    
+    <div class="container mx-auto p-4 flex flex-col md:flex-row justify-between">
+      
+      <div class="w-full md:w-2/3 p-4">
+        <h2 class="text-2xl font-bold mb-4">Ringkasan Produk</h2>
+        <div class="bg-zinc-100 p-4 rounded-lg mb-4">
+          <h3 class="text-xl font-semibold mb-2">Informasi Penerima</h3>
+          <form>
+            <div class="mb-4">
+              <label class="block text-zinc-700">Nama Penerima:</label>
+              <input type="text" class="w-full p-2 border border-zinc-300 rounded" placeholder="Nama Lengkap">
+            </div>
+            <div class="mb-4">
+              <label class="block text-zinc-700">Email Penerima:</label>
+              <input type="email" class="w-full p-2 border border-zinc-300 rounded" placeholder="Alamat Email">
+            </div>
+            <div class="mb-4">
+              <label class="block text-zinc-700">Pesan:</label>
+              <textarea class="w-full p-2 border border-zinc-300 rounded" placeholder="Tambahkan pesan pribadi Anda di sini..."></textarea>
+            </div>
+          </form>
+        </div>
+    <div class="bg-zinc-100 p-4 rounded-lg mb-4">
+      <h3 class="text-xl font-semibold mb-2">Metode Pembayaran</h3>
+      <div class="mb-4">
+        <div class="flex items-center mb-2">
+          <img src="https://placehold.co/40x24" alt="Visa" class="mr-2">
+          <span class="flex-1">4855 **** **** 0424</span>
+          <span class="text-zinc-500">Vako Shvili</span>
+        </div>
+        <div class="flex items-center mb-2">
+          <img src="https://placehold.co/40x24" alt="Mastercard" class="mr-2">
+          <span class="flex-1">5795 **** **** 0424</span>
+          <span class="text-zinc-500">Vako Shvili</span>
+        </div>
+        <div class="flex items-center mb-2">
+          <img src="https://placehold.co/40x24" alt="Paypal" class="mr-2">
+          <span class="flex-1">Anda akan diarahkan ke situs PayPal setelah menerima pesanan Anda</span>
+        </div>
+      </div>
+      <div class="mb-4">
+        <button class="flex items-center w-full p-2 border border-green-500 rounded text-green-500">
+          <span class="flex-1">Kartu Pembayaran Baru</span>
+          <img src="https://placehold.co/24x24" alt="Add Icon">
+        </button>
+      </div>
+      <form>
+        <div class="mb-4">
+          <label class="block text-zinc-700">Nama:</label>
+          <input type="text" class="w-full p-2 border border-zinc-300 rounded" placeholder="Nama kartu">
+        </div>
+        <div class="mb-4">
+          <label class="block text-zinc-700">Nomor Kartu:</label>
+          <input type="text" class="w-full p-2 border border-zinc-300 rounded" placeholder="Nomor Kartu">
+        </div>
+        <div class="flex space-x-4 mb-4">
+          <div class="flex-1">
+            <label class="block text-zinc-700">MM / YY:</label>
+            <input type="text" class="w-full p-2 border border-zinc-300 rounded" placeholder="MM / YY">
+          </div>
+          <div class="flex-1">
+            <label class="block text-zinc-700">CVC:</label>
+            <input type="text" class="w-full p-2 border border-zinc-300 rounded" placeholder="Kode keamanan">
+          </div>
+        </div>
+        <div class="flex items-center">
+          <input type="checkbox" class="mr-2">
+          <label class="text-zinc-700">Ingat kartu ini, simpan di daftar kartu saya</label>
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  
+  <div class="w-full md:w-1/3 p-4">
+    <div class="bg-zinc-100 p-4 rounded-lg">
+      <h3 class="text-xl font-semibold mb-2">Kursus</h3>
+      <div class="flex items-center mb-4">
+        <img src="https://placehold.co/80x80" alt="Course Image" class="mr-2">
+        <div>
+          <p>Kursus oleh: Salsabila Abdul</p>
+          <p class="text-red-500">Rp. 335.000</p>
+        </div>
+      </div>
+      <h3 class="text-xl font-semibold mb-2">Pembelian</h3>
+      <div class="mb-2">
+        <span>Subtotal</span>
+        <span class="float-right">Rp. 335.000</span>
+      </div>
+      <div class="mb-2">
+        <span>Kupon Diskon</span>
+        <span class="float-right">50%</span>
+      </div>
+      <div class="mb-4">
+        <span>Total:</span>
+        <span class="float-right text-red-500 text-xl">Rp. 227.000</span>
+      </div>
+      <a href="laman khursus.html">
+      <button class="w-full bg-orange-500 text-white p-2 rounded">Bayar</button></a>
+    </div>
+  </div>
+    </div>
+    
+    <footer class="bg-zinc-100 p-4">
+      <div class="container mx-auto flex flex-col md:flex-row justify-between">
+        <div class="mb-4 md:mb-0">
+          <img src="https://placehold.co/50x50" alt="Logo" class="mb-2">
+          <p>Meningkatkan aksesibilitas dan efektivitas pembelajaran dengan menciptakan pengalaman belajar yang lebih menyenangkan dan efisien.</p>
+        </div>
+        <div class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
+          <div>
+            <h3 class="font-semibold mb-2">BANTUAN</h3>
+            <ul>
+              <li><a href="#" class="hover:underline">Hubungi Kami</a></li>
+              <li><a href="#" class="hover:underline">Artikel Terbaru</a></li>
+              <li><a href="#" class="hover:underline">FAQ</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-2">PROGRAM</h3>
+            <ul>
+              <li><a href="#" class="hover:underline">Seni & Desain</a></li>
+              <li><a href="#" class="hover:underline">Bisnis</a></li>
+              <li><a href="#" class="hover:underline">TI & Perangkat Lunak</a></li>
+              <li><a href="#" class="hover:underline">Bahasa</a></li>
+              <li><a href="#" class="hover:underline">Pemrograman</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold mb-2">HUBUNGI KAMI</h3>
+            <address>
+              Address: 2321 New Design Str, Lorem Ipsum10 Hudson Yards, USA<br>
+              Tel: (1) 123 500-587-898<br>
+              Mail: support@mail.com
+            </address>
+            <div class="flex space-x-2 mt-2">
+              <img src="https://placehold.co/24x24" alt="Facebook">
+              <img src="https://placehold.co/24x24" alt="Pinterest">
+              <img src="https://placehold.co/24x24" alt="WhatsApp">
+              <img src="https://placehold.co/24x24" alt="Email">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        Copyright © 2024
+      </div>
+    </footer>
+  </div>
+    </body>
+  </html>
